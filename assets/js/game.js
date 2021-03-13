@@ -107,6 +107,7 @@ const game = function () {
     isPlay = confirm("Do you want to continue to play?");
   } else {
     alert("Please choose from the valid options: R, P, S");
+    isPlay = false;
   }
 };
 
